@@ -18,7 +18,7 @@ jobs:
       has-secrets: ${{ steps.check-secrets.outputs.has-secrets }}
 
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
       - name: Set up Node.js version
         uses: actions/setup-node@v1
